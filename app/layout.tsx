@@ -10,17 +10,13 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.seekvisualartist.com/"),
+    metadataBase: new URL("https://carlossaizdev.netlify.app/.com/"),
     title: "Carlos Saiz Portfolio",
     description:
-    "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
+    "Fullstack web developer",
     generator: "Next.js",
     applicationName: "Carlos Saiz",
     keywords: [
-        "Seek Visual Artist",
-        "SeekVA",
-        "Seek Design",
-        "Seek Visuals",
         "freelance",
         "developer",
         "freelance developer",
@@ -46,17 +42,17 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Seek Visual Artist - Designer and Developer",
+        title: "Carlos Saiz Godas | Fullstack developer",
         description:
-      "  Software Engineer, .",
-        url: "https://www.seekvisualartist.com/",
-        siteName: "www.seekvisualartist.com",
+      "  Software developer, .",
+        url: "https://carlossaizdev.netlify.app/",
+        siteName: "https://carlossaizdev.netlify.app/",
         images: [
             {
                 url: "./public/metadata.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Seek Visual Artist - Designer and Developer",
+                alt: "Carlos Saiz | Fullstack developer",
             },
         ],
         locale: "en-US",
@@ -64,10 +60,10 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Seek Visual Artist - Designer and Developer",
+        title: "Carlos Saiz | Fullstack developer",
         description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
-        creator: "SeekVFX",
+      "Software developer.",
+        creator: "Carlos Saiz",
         creatorId: "0000000000",
         images: ["./public/metadata.jpg"],
     },
