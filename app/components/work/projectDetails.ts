@@ -62,7 +62,7 @@ export const projects = [
         techNames: ["TypeScript", "React","Github","NodeJS"],
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/","https://github.com/","https://node.org"],
         github: "https://github.com/factoriaf5-p7/ui-uknow-stiinta/tree/dev",
-        demo: "",
+        demo: "https://stiintacourses.netlify.app/",
         image: "/projects/stinta-final.png",
         available: true,
     },
