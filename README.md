@@ -2,4 +2,6 @@
 PORTFOLIO CARLOS SAIZ V1.0
 =======
 V1 Carlos Saiz Portfolio
->>>>>>> 798b74c8d6134176a2d8b17453a976c467f389a3
+>>>>>>> PORTFOLIO DE CARLOS QUE MUESTRA TODOS LOS PROYECTOS Y TECNOLOGIAS APRENDIDAS,
+>>>>>>> Creado con Next, Typescript y Tailwind . 
+>>>>>>> 
