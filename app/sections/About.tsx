@@ -25,12 +25,12 @@ const About = () => {
 
                         <AnimatedBody
                             delay={0.1}
-                            text="My goal is to work as a web developer specializing in React. Whether I'm crafting elegant user interfaces or building complex applications, my passion lies in creating innovative solutions. I thrive on experimenting with emerging technologies and staying at the forefront of tech trends."
+                            text=""
                         />
 
                         <AnimatedBody
                             delay={0.2}
-                            text="I have a deep appreciation for the art of testing in software development, a facet often overlooked. I find joy in ensuring the reliability and quality of applications. While I'm currently engrossed in exciting projects, I'm always eager for fresh opportunities and collaborations to bring testing excellence to the forefront."
+                            text=""
                         />
                     </div>
                 </div>
