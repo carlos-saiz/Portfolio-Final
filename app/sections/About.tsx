@@ -21,7 +21,7 @@ const About = () => {
 
                 <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-                        <AnimatedBody text="Hi there, I'm Carlos, and I'm 21 years old. My tech journey began recently, with just one year of experience under my belt. I spent 3 months in a Frontend Bootcamp, where I learned the essentials of React and frontend principles. Subsequently, I dedicated 6 months to a Fullstack Bootcamp, where I delved into the world of fullstack development, covering technologies like React, TypeScript, Javascript, MySQL, MongoDB, and frameworks like Next and Vite." />
+                        <AnimatedBody text="Hi there, I'm Carlos, a 21-year-old guy who's been passionate about computers for as long as I can remember. My programming journey started in late 2022, and it's been an incredible adventure. I've always been curious about tech, ever since I got my first computer at age 12. Recently, I completed a Frontend Bootcamp, where I learned React and the ins and outs of frontend development. After that, I spent 6 months in a Fullstack Bootcamp, where I delved into web development, including creating APIs and working with databases. I'm enthusiastic about coding, and I'm excited about the opportunity to contribute to a company. React is my absolute favorite, and I'm ready for new challenges!" />
 
                         <AnimatedBody
                             delay={0.1}
