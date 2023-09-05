@@ -9,21 +9,22 @@ import {
     SiTailwindcss,
     SiTypescript,
     SiZig,
-    SiNodedotjs
+    SiNodedotjs,
+    SiAndroidstudio
 } from "react-icons/si";
-import {IconType} from "react-icons";
+import { IconType } from "react-icons";
 
 export type ProjectProps = {
-  id: number;
-  name: string;
-  description: string;
-  technologies: IconType[];
-  techNames: string[];
-  techLinks: string[];
-  github: string;
-  demo: string;
-  image: string;
-  available: boolean;
+    id: number;
+    name: string;
+    description: string;
+    technologies: IconType[];
+    techNames: string[];
+    techLinks: string[];
+    github: string;
+    demo: string;
+    image: string;
+    available: boolean;
 };
 
 export const projects = [
@@ -45,9 +46,9 @@ export const projects = [
         name: "Pokedex",
         description:
             "Application of pokedex for android using react native with Jest testing",
-        technologies: [SiTypescript, SiReact, SiGithub,SiNodedotjs],
-        techNames: ["TypeScript", "React","Github","NodeJS"],
-        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/","https://github.com/","https://node.org"],
+        technologies: [SiTypescript, SiReact, SiGithub, SiNodedotjs, SiAndroidstudio],
+        techNames: ["TypeScript", "React", "Github", "NodeJS", "AndroidStudio"],
+        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://github.com/", "https://node.org", "https://developer.android.com/studio"],
         github: "https://github.com/carlos-saiz/rn-pokedex/tree/dev",
         demo: "https://github.com/carlos-saiz/rn-pokedex/tree/dev",
         image: "/projects/Pokedex-final.png",
@@ -58,9 +59,9 @@ export const projects = [
         name: "U-Know Stiinta",
         description:
             "u-know frontend is a website that sells programming courses. Courses are stored in a MongoDB database.",
-        technologies: [SiTypescript, SiReact, SiGithub,SiNodedotjs],
-        techNames: ["TypeScript", "React","Github","NodeJS"],
-        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/","https://github.com/","https://node.org"],
+        technologies: [SiTypescript, SiReact, SiGithub, SiNodedotjs],
+        techNames: ["TypeScript", "React", "Github", "NodeJS"],
+        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://github.com/", "https://node.org"],
         github: "https://github.com/factoriaf5-p7/ui-uknow-stiinta/tree/dev",
         demo: "https://stiintacourses.netlify.app/",
         image: "/projects/stinta-final.png",
@@ -71,9 +72,9 @@ export const projects = [
         name: "Coming Soon",
         description:
             "I'm currently working on a couple of projects. I'll update this section as soon as I'm done.",
-        technologies: [SiReact,SiTypescript],
-        techNames: ["React","Typescript"],
-        techLinks: ["https://www.react.org/","www.typescript.com"],
+        technologies: [SiReact, SiTypescript],
+        techNames: ["React", "Typescript"],
+        techLinks: ["https://www.react.org/", "www.typescript.com"],
         github: "https://github.com/nuIIpointerexception/",
         demo: "https://github.com/nuIIpointerexception/",
         image: "/projects/construction.webp",
