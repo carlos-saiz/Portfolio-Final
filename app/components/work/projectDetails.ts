@@ -10,7 +10,8 @@ import {
     SiTypescript,
     SiZig,
     SiNodedotjs,
-    SiAndroidstudio
+    SiAndroidstudio,
+    SiNestjs
 } from "react-icons/si";
 import { IconType } from "react-icons";
 
@@ -46,9 +47,9 @@ export const projects = [
         name: "Pokedex",
         description:
             "Application of pokedex for android using react native with Jest testing",
-        technologies: [SiTypescript, SiReact, SiGithub, SiNodedotjs, SiAndroidstudio],
-        techNames: ["TypeScript", "React", "Github", "NodeJS", "AndroidStudio"],
-        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://github.com/", "https://node.org", "https://developer.android.com/studio"],
+        technologies: [SiTypescript, SiReact, SiGithub, SiNodedotjs, SiAndroidstudio,],
+        techNames: ["TypeScript", "React", "Github", "NodeJS", "AndroidStudio",],
+        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://github.com/", "https://node.org", "https://developer.android.com/studio",],
         github: "https://github.com/carlos-saiz/rn-pokedex/tree/dev",
         demo: "https://github.com/carlos-saiz/rn-pokedex/tree/dev",
         image: "/projects/Pokedex-final.png",
@@ -58,10 +59,10 @@ export const projects = [
         id: 2,
         name: "U-Know Stiinta",
         description:
-            "u-know frontend is a website that sells programming courses. Courses are stored in a MongoDB database.",
-        technologies: [SiTypescript, SiReact, SiGithub, SiNodedotjs],
-        techNames: ["TypeScript", "React", "Github", "NodeJS"],
-        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://github.com/", "https://node.org"],
+            "u-know frontend and backend is a website that sells programming courses. Courses are stored in a MongoDB database. and CRUD with nest.",
+        technologies: [SiTypescript, SiReact, SiGithub, SiNodedotjs, SiNestjs],
+        techNames: ["TypeScript", "React", "Github", "NodeJS", "NestJs"],
+        techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://github.com/", "https://node.org", "https://nestjs.org"],
         github: "https://github.com/factoriaf5-p7/ui-uknow-stiinta/tree/dev",
         demo: "https://stiintacourses.netlify.app/",
         image: "/projects/stinta-final.png",
